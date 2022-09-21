@@ -131,6 +131,23 @@ main p {
 	margin-bottom: 1.5rem;
 	line-height: 1.5;
 }
+section {
+	text-align: center;
+	padding: 3% 40%;
+}
+
+section img {
+	height: 15rem;
+	width: 15rem;
+	margin-bottom: 1%;
+}
+
+section.bg-img {
+	background-image: url("./assets/footer_img.jpg");
+	background-size: auto;
+	background-position: top;
+	height: 25rem;
+}
 
 footer {
 	text-align: center;
