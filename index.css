@@ -71,6 +71,10 @@ main {
 	background-color: #DDB9A3;
 }
 
+strong {
+	font-weight: 700;
+}
+
 footer {
 	background-color: #F9E7DC;
 }
