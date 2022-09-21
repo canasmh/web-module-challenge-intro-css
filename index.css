@@ -48,7 +48,7 @@ table {
 
 * {
 	box-sizing: border-box;
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	max-width: 100%;
 }
 
@@ -64,6 +64,10 @@ body {
 header {
 	padding: 2.5rem 5rem;
 	text-align: center;
+}
+
+nav {
+	margin-bottom: 3rem;
 }
 
 nav a {
@@ -90,4 +94,28 @@ nav a:last-child {
 h1 {
 	font-family: 'Chelsea Market', cursive;
 	font-size: 4rem;
+}
+
+header div.img, header div.text {
+	display: inline-block;
+}
+
+div.text {
+	position: relative;
+	top: -60px;
+}
+
+div.text h1, div.text p {
+	margin-bottom: 3rem;
+	width: 50rem;
+}
+
+header div.img {
+	margin-right: 5rem;
+}
+
+header img {
+	width: 25rem;
+	height: 25rem;
+	border-radius: 50%;
 }
